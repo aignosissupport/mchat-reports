@@ -76,7 +76,7 @@ const MCHAT = () => {
           <div><span className="label" >Patient Name:</span> <span id="isaapatientNamecell">{name}</span></div>
           <div><span className="label">Age:</span> <span id="chronologicalAgecell">{age}</span></div>
         </div> */}
-        <br /><br /> <br />  <br /> <br /><br /><br /> <br />  <br /> <br />  <br /><br /> <br />  <br /> <br />
+        <br /><br /> <br />  
         {/* <h2 style={{textAlign:"left"}}>ISAA Score: <span id="isaascore">{mchatScore} </span></h2>
         <p style={{textAlign:"left"}}>Interpretation: <span id="MCHATinterpretationmessage">{MCHATinterpretation}</span></p> */}
 
@@ -85,7 +85,7 @@ const MCHAT = () => {
        
         
         <center>
-        {/* <table border="4" style={{width: "50%", textAlign: "center", marginTop: "10px", border: "1px solid #d1d5db" , padding: "8px" }}>
+        <table border="4" style={{width: "50%", textAlign: "center", marginTop: "10px", border: "1px solid #d1d5db" , padding: "8px" }}>
                     <tr >
                         <th style={{ border: "1px solid #d1d5db", borderLeft:"0px", borderRight:"0px" ,  padding: "8px" }}>Score Range</th>
                         <th style={{ border: "1px solid #d1d5db", borderRight:"0px" ,  padding: "8px" }}>Classification</th>
@@ -106,9 +106,9 @@ const MCHAT = () => {
                         <td style={{ border: "1px solid #d1d5db", borderLeft:"0px",  padding: "8px" }}>&gt; 153</td>
                         <td style={{ border: "1px solid #d1d5db", borderRight:"0px" ,  padding: "8px" }}>Severe Autism</td>
                     </tr>
-                </table>  */}
+                </table> 
         </center> 
-        <br /><br />
+        <br /><br /><br /> <br /><br />
         {/* <h2 style={{textAlign:"left"}}>ISAA Score: <span id="isaascore">{mchatScore} </span></h2>
         <p style={{textAlign:"left"}}>Interpretation: <span id="MCHATinterpretationmessage">{MCHATinterpretation}</span></p> */}
 
